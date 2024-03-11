@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ShopNowTestSuite">
+    <parameter name="browser" value="chrome" />
+    <parameter name="browser" value="firefox" />
+    <!-- Add more parameters if needed -->
+
+    <test name="ShopNowTest">
+        <classes>
+            <class name="ShopNowTest" />
+        </classes>
+    </test>
+</suite>
